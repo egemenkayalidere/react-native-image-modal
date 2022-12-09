@@ -150,6 +150,7 @@ export default class ImageModal extends React.Component<Props, State> {
       willClose,
     } = this.props;
     const { isOpen, origin } = this.state;
+    return null
     return (
       <View
         ref={(component): void => {
